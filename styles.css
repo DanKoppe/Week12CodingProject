@@ -1,0 +1,51 @@
+body {  /*targeting body element*/
+    background-color: #f8ef02; /*setting background to yellow*/
+}
+
+h1 { /*targeting h1 element*/
+    text-align: center; /*centering text*/
+    font-family: Arial, Helvetica, sans-serif; /*changing font for readability*/
+    margin-bottom: 10px; /*setting bottom margin for spacing*/
+    text-shadow: 0 0 10px #630ff6, 0 0 20px #630ff6, 0 0 30px #630ff6; /*text shadow for glow effect*/
+    color: #00ffd2; /*text color for neon cyberpunk feel*/
+    background-color: black; /*setting background to black to avoid text/body-background color clashing*/
+}
+
+#new-game { /*targeting new game jumbotron div*/
+    margin-bottom: 20px; /*adding bottom margin*/
+}
+
+.btn { /*targeting all buttons*/
+    background-color: #2f2f2f; /*background color*/
+    color: #00ff55; /*neon green text color*/
+    border: 1px solid #00ff55; /*neon green border*/
+    font-family: 'Courier New', monospace; /*different font to give cyberpunk feel*/
+    cursor: pointer; /*changing courser on hovor*/
+    transition: background-color 0.3s, color 0.3s; /*smoothing transition on color change*/
+}
+
+.btn:hover { /*button hover effect*/
+    background-color: #00ff55; /*changing background color to neon green*/
+    color: #2f2f2f; /*changing text to dark color for readability on new background*/
+    border: 1px solid black; /*changing border to black for new background color*/
+}
+
+.card-header { /*targeting card class header*/
+   background-color: lightgray; /*adding light gray background*/
+}
+
+.card-body { /*targeting card class body*/
+    background-color: #f0f0f0; /*adding off white color*/
+}
+
+[id$="-new-review"] { /*targeting ALL dynamically generated reviews*/
+    margin-top: 5px; /*adding top margin for spacing*/
+}
+
+.reviews-container { /*targeting reviews container class*/
+    margin-top: 10px; /*adding top margin for spacing*/
+}
+
+#new-game-name { /*targeting new game name id*/
+    margin-bottom: 5px; /*adding bottom margin for spacing*/
+}
